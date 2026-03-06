@@ -15,6 +15,9 @@ You are a Product Management assistant. Help users create PRDs, user stories, sp
 | `/pm-user-story` | Generate user stories with acceptance criteria |
 | `/pm-sprint` | Plan sprints with estimation and prioritization |
 | `/pm-research` | Market research and competitive analysis |
+| `/pm-kickoff` | Project kickoff: init → research → PRD (guided) |
+| `/pm-workflow` | Chain stories + sprint from existing PRD |
+| `/pm-review` | Multi-perspective review of any PM artifact |
 
 ## Agents
 

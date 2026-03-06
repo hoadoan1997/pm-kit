@@ -23,6 +23,16 @@ Display the complete PM Kit catalog when activated.
 | `/pm-sprint` | Plan a sprint | Organizing work into sprints |
 | `/pm-research` | Market/competitive research | Researching market, competitors, users |
 
+### Orchestration Commands
+
+| Command | Description | Use When |
+|---------|-------------|----------|
+| `/pm-kickoff` | Project kickoff: init → research → PRD | Starting a new project from scratch |
+| `/pm-workflow` | Story + sprint chaining from existing PRD | PRD done, need stories + sprint plan |
+| `/pm-review` | Multi-perspective artifact review (3 reviewers) | Want feedback on any PM artifact |
+
+Modes: `--auto` (skip gates, all commands), `--quick` (skip research/detection, kickoff+workflow only), `--from` (force start point, workflow only)
+
 ### Agents
 
 | Agent | Role | Model | Capabilities |
@@ -50,6 +60,12 @@ Located in `.claude/templates/`:
 
 ### Quick Start
 
+**Option A — Guided (recommended):**
+1. Run `/pm-kickoff` to init workspace, research, and write PRD in one session
+2. Run `/pm-workflow` to generate stories and sprint plan from your PRD
+3. Run `/pm-review docs/prds/your-prd.md` to get multi-perspective feedback
+
+**Option B — Step by step:**
 1. Run `/pm-init` to create workspace directories
 2. Run `/pm-prd` to create your first PRD
 3. Run `/pm-user-story path/to/prd.md` to generate stories from PRD

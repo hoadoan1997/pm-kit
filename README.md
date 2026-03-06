@@ -28,6 +28,9 @@ The installer copies PM Kit files into your project's `.claude/` directory. Exis
 | `/pm-user-story` | Generate user stories from PRDs or descriptions |
 | `/pm-sprint` | Plan sprints with estimation and capacity allocation |
 | `/pm-research` | Market research, competitive analysis, user personas |
+| `/pm-kickoff` | Project kickoff: init → research → PRD in one guided session |
+| `/pm-workflow` | Chain stories + sprint from existing PRD (auto-detects state) |
+| `/pm-review` | Multi-perspective review of any PM artifact (3 parallel reviewers) |
 
 ## Agents
 
@@ -63,7 +66,10 @@ All hooks fail-open — errors never block your workflow.
 │   ├── competitive-brief/ # Competitive analysis
 │   ├── user-story/        # Story generation
 │   ├── sprint/            # Sprint planning
-│   └── pm-research/       # Market research
+│   ├── pm-research/       # Market research
+│   ├── pm-kickoff/        # Orchestration: init→research→PRD
+│   ├── pm-workflow/       # Orchestration: stories→sprint
+│   └── pm-review/         # Orchestration: multi-perspective review
 ├── agents/
 │   ├── pm-analyst.md      # Market research agent
 │   ├── pm-writer.md       # Document writing agent
@@ -90,10 +96,9 @@ All hooks fail-open — errors never block your workflow.
 ## Getting Started
 
 1. Install PM Kit into your project
-2. Run `/pm-init` to create workspace directories
-3. Run `/prd` to write your first PRD
-4. Run `/user-story docs/prds/your-prd.md` to generate stories
-5. Run `/sprint` to plan your first sprint
+2. Run `/pm-kickoff` for guided project setup (init → research → PRD)
+3. Run `/pm-workflow` to generate stories + sprint plan from your PRD
+4. Run `/pm-review docs/prds/your-prd.md` for multi-perspective feedback
 
 See [docs/getting-started.md](docs/getting-started.md) for a detailed walkthrough.
 
