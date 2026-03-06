@@ -1,5 +1,5 @@
 ---
-name: user-story
+name: pm-user-story
 description: "Generate user stories with acceptance criteria from PRDs or descriptions. Use for story writing, backlog creation, requirement breakdown."
 argument-hint: "[PRD path or feature description]"
 ---

@@ -19,15 +19,15 @@ The installer copies PM Kit files into your project's `.claude/` directory. Exis
 
 | Command | Description |
 |---------|-------------|
-| `/pm:help` | List all PM Kit commands and capabilities |
-| `/pm:init` | Initialize PM workspace with standard directories |
-| `/pm:prd` | Create PRDs (3 templates, Socratic discovery, multi-perspective review) |
-| `/pm:press-release` | Amazon Working Backwards press releases |
-| `/pm:product-1-pager` | Quick product briefs for early validation |
-| `/pm:competitive-brief` | Focused competitive analysis with feature matrices |
-| `/pm:user-story` | Generate user stories from PRDs or descriptions |
-| `/pm:sprint` | Plan sprints with estimation and capacity allocation |
-| `/pm:research` | Market research, competitive analysis, user personas |
+| `/pm-help` | List all PM Kit commands and capabilities |
+| `/pm-init` | Initialize PM workspace with standard directories |
+| `/pm-prd` | Create PRDs (3 templates, Socratic discovery, multi-perspective review) |
+| `/pm-press-release` | Amazon Working Backwards press releases |
+| `/pm-product-1-pager` | Quick product briefs for early validation |
+| `/pm-competitive-brief` | Focused competitive analysis with feature matrices |
+| `/pm-user-story` | Generate user stories from PRDs or descriptions |
+| `/pm-sprint` | Plan sprints with estimation and capacity allocation |
+| `/pm-research` | Market research, competitive analysis, user personas |
 
 ## Agents
 

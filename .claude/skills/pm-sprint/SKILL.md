@@ -1,5 +1,5 @@
 ---
-name: sprint
+name: pm-sprint
 description: "Plan sprints with estimation, prioritization, and capacity allocation. Use for sprint planning, backlog grooming, velocity tracking."
 argument-hint: "[sprint name or backlog path]"
 ---

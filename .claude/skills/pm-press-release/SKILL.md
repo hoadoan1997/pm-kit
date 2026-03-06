@@ -1,5 +1,5 @@
 ---
-name: press-release
+name: pm-press-release
 description: "Write Amazon-style press releases using Working Backwards method. Use for product vision, feature announcements, or validating product direction before building."
 argument-hint: "[product or feature name]"
 ---

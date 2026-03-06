@@ -1,5 +1,5 @@
 ---
-name: product-1-pager
+name: pm-product-1-pager
 description: "Create concise product 1-pagers for early validation and stakeholder alignment. Use for quick briefs, feature pitches, or project kickoff documents."
 argument-hint: "[product or feature name]"
 ---

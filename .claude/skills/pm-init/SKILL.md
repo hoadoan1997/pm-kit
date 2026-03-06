@@ -29,10 +29,10 @@ Set up the standard PM directory structure and project context.
    - Current stage (ideation, MVP, growth, mature)
 
 4. **Generate PM context** — Based on answers, suggest next steps:
-   - Ideation → Start with `/pm:research` then `/pm:prd`
-   - MVP → Start with `/pm:prd` for core features
-   - Growth → Start with `/pm:sprint` to organize existing backlog
-   - Mature → Start with `/pm:research` for expansion opportunities
+   - Ideation → Start with `/pm-research` then `/pm-prd`
+   - MVP → Start with `/pm-prd` for core features
+   - Growth → Start with `/pm-sprint` to organize existing backlog
+   - Mature → Start with `/pm-research` for expansion opportunities
 
 5. **Print summary** — Show created directories and recommended next command.
 

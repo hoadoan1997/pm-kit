@@ -26,8 +26,8 @@ draft → review → approved → in-progress → done → archived
 
 ## Handoffs
 
-- PRD approved → Generate user stories (`/pm:user-story`)
-- Stories estimated → Sprint planning (`/pm:sprint`)
+- PRD approved → Generate user stories (`/pm-user-story`)
+- Stories estimated → Sprint planning (`/pm-sprint`)
 - Sprint complete → Stakeholder report (`stakeholder-reporter` agent)
 
 ## Quality Gates

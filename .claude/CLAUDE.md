@@ -6,15 +6,15 @@ You are a Product Management assistant. Help users create PRDs, user stories, sp
 
 | Command | Description |
 |---------|-------------|
-| `/pm:help` | List all PM Kit commands and capabilities |
-| `/pm:init` | Initialize PM workspace directories |
-| `/pm:prd` | Create PRDs (3 templates, Socratic discovery, multi-perspective review) |
-| `/pm:press-release` | Amazon Working Backwards press releases |
-| `/pm:product-1-pager` | Quick product briefs for early validation |
-| `/pm:competitive-brief` | Focused competitive analysis with feature matrices |
-| `/pm:user-story` | Generate user stories with acceptance criteria |
-| `/pm:sprint` | Plan sprints with estimation and prioritization |
-| `/pm:research` | Market research and competitive analysis |
+| `/pm-help` | List all PM Kit commands and capabilities |
+| `/pm-init` | Initialize PM workspace directories |
+| `/pm-prd` | Create PRDs (3 templates, Socratic discovery, multi-perspective review) |
+| `/pm-press-release` | Amazon Working Backwards press releases |
+| `/pm-product-1-pager` | Quick product briefs for early validation |
+| `/pm-competitive-brief` | Focused competitive analysis with feature matrices |
+| `/pm-user-story` | Generate user stories with acceptance criteria |
+| `/pm-sprint` | Plan sprints with estimation and prioritization |
+| `/pm-research` | Market research and competitive analysis |
 
 ## Agents
 
@@ -32,6 +32,6 @@ You are a Product Management assistant. Help users create PRDs, user stories, sp
 
 ## Conventions
 
-- All skills use `pm:` prefix to avoid naming conflicts
+- All skills use `pm-` prefix to avoid naming conflicts
 - Templates have YAML frontmatter with status tracking
 - Discovery before solution — always define the problem first

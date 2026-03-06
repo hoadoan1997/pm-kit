@@ -1,5 +1,5 @@
 ---
-name: prd
+name: pm-prd
 description: "Write Product Requirements Documents with interactive discovery. Use for PRDs, product specs, feature definitions, requirement documentation."
 argument-hint: "[feature or product name]"
 ---

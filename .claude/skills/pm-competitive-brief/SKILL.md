@@ -1,12 +1,12 @@
 ---
-name: competitive-brief
+name: pm-competitive-brief
 description: "Create focused competitive analysis briefs with feature matrices and positioning maps. Use for competitor comparison, market positioning, or strategic planning."
 argument-hint: "[market or competitor names]"
 ---
 
 # Competitive Brief
 
-Focused competitive analysis — lighter than full `/pm:research`, produces actionable comparison.
+Focused competitive analysis — lighter than full `/pm-research`, produces actionable comparison.
 
 ## Workflow
 
